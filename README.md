@@ -38,6 +38,8 @@ sudo docker rm $(sudo docker ps -q status:exited)
 vi daemon.json <br>
 {"bip":"172.17.0.1/16"}
 
+#### 도커 컨테이너 쉘 접속 <br>
+sudo docker exec -it [docker PS NAME]
 
 #### 도커 네트워크 생성 <br>
 sudo docker network create [net-NAME] <br>
@@ -47,8 +49,8 @@ sudo docker network ls
 /etc/nginx <br>
 vi nginx.conf
 
-#### 도커 파일
-sudo docker build -t image:tag <
+#### 도커 파일 <br>
+sudo docker build -t image:tag <br>
 sudo docker run -dit --name=[NAME] -p [host PORT]:[docker PORT] image:tag <br>
 
 #### 도커 컴포즈 <br>
