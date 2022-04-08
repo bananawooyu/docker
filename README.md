@@ -60,3 +60,5 @@ sudo vi docker-compose.yaml [-d , --build]<br>
 sudo docker-compose up <br>
 sudo docker-compose down <br>
 sudo docker-compose ps <br>
+sudo docker-compose pause <br>
+sudo docker-compose unpause <br>
