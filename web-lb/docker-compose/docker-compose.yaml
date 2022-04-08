@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  web01:
+    build: ../web01
+    ports:
+      - '8080:80'
+  web02:
+    build: ../web02
+    ports:
+      - '8081:80'
+  web03:
+    build: ../web03
+    ports:
+      - '8082:80'
+
