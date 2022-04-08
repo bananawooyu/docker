@@ -56,7 +56,7 @@ sudo docker run -dit --name=[NAME] -p [host PORT]:[docker PORT] image:tag <br>
 
 #### 도커 컴포즈
 sudo apt install docker-compose <br>
-sudo vi docker-compose.yaml <br>
+sudo vi docker-compose.yaml [-d , --build]<br>
 sudo docker-compose up <br>
 sudo docker-compose down <br>
 sudo docker-compose ps <br>
