@@ -27,9 +27,6 @@ sudo docker push <br>
 sudo docker volume create <br>
 sudo docker volume ls
 
-#### 도커 파일 이미지 생성
-sudo docker build -t image:tag
-
 #### 도커 이미지 삭제, 컨테이너 삭제
 sudo docker rmi [image ID] <br>
 sudo docker rm [container ID or NAME] <br>
@@ -50,8 +47,13 @@ sudo docker network ls
 /etc/nginx <br>
 vi nginx.conf
 
+#### 도커 파일
+sudo docker build -t image:tag <
+sudo docker run -dit --name=[NAME] -p [host PORT]:[docker PORT] image:tag <br>
+
 #### 도커 컴포즈 <br>
 sudo apt install docker-compose <br>
 sudo vi docker-compose.yaml <br>
 sudo docker-compose up <br>
-sudo docker-compose down
+sudo docker-compose down <br>
+sudo docker-compose ps
