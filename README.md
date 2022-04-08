@@ -23,7 +23,11 @@ sudo docker run -dit --name=[NAME] -p [host PORT]:[docker PORT] -v [volume NAME 
 sudo docker search [image NAME] <br>
 sudo docker pull [image NAME] <br>
 sudo docker push [image NAME] <br>
+
+#### 도커 허브 리포지토리 push
 sudo docker login <br>
+sudo docker build -t image:tag <br>
+sudo docker push [image NAME] <br>
 
 #### 도커 볼륨 생성, 리스트
 sudo docker volume create <br>
