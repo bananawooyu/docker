@@ -43,6 +43,10 @@ vi daemon.json <br>
 #### 도커 컨테이너 쉘 접속
 sudo docker exec -it [docker PS NAME] <br>
 
+#### 도커 컨테이너 속성 확인
+sudo docker inspect [docker NAME]
+sudo docker inspect [docker NAME] | grep IPAddress
+
 #### 도커 네트워크 생성 <br>
 sudo docker network create [net-NAME] <br>
 sudo docker network ls <br>
