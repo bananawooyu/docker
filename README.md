@@ -21,8 +21,9 @@ sudo docker run -dit --name=[NAME] -p [host PORT]:[docker PORT] -v [volume NAME 
 
 #### 도커 이미지 검색, 다운로드, 업로드
 sudo docker search [image NAME] <br>
-sudo docker pull <br>
-sudo docker push <br>
+sudo docker pull [image NAME] <br>
+sudo docker push [image NAME] <br>
+sudo docker login <br>
 
 #### 도커 볼륨 생성, 리스트
 sudo docker volume create <br>
