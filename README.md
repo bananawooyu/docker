@@ -4,8 +4,8 @@ sk_shieldus 데이터 보안 전문가 교육과정 내용
 
 도커 기본 명령어
 
-sudo docker ps
-sudo docker ps -a
+sudo docker ps\n
+sudo docker ps -a\n
 
 sudo docker images
 
